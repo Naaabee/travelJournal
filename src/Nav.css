@@ -1,0 +1,35 @@
+nav {
+    height: 55px;
+    background-color: #F55A5A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+nav > h1 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.App-logo {
+    height: 24px;
+    pointer-events: none;
+    margin-right: 7px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
